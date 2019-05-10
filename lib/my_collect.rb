@@ -5,5 +5,5 @@ def my_collect(collection)
     new_arr[i] = yield collection[i]
     i = i + 1
   end
-
+  new_arr
 end
